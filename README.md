@@ -1,6 +1,8 @@
 # Triangle
 Test Project for Flexion
 
+This project was build using Microsoft .NET Core 1.1 using Visual Studio Code
+
 To run this project, please perform the following steps:
 - Clone the Triangle repository to a location on your local computer
 - Navigate to ~/Triangle/TriangleService folder
