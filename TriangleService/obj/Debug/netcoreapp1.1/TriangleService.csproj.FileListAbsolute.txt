@@ -1,0 +1,8 @@
+C:\projects\Triangle\TriangleService\bin\Debug\netcoreapp1.1\TriangleService.deps.json
+C:\projects\Triangle\TriangleService\bin\Debug\netcoreapp1.1\TriangleService.runtimeconfig.json
+C:\projects\Triangle\TriangleService\bin\Debug\netcoreapp1.1\TriangleService.runtimeconfig.dev.json
+C:\projects\Triangle\TriangleService\bin\Debug\netcoreapp1.1\TriangleService.dll
+C:\projects\Triangle\TriangleService\bin\Debug\netcoreapp1.1\TriangleService.pdb
+C:\projects\Triangle\TriangleService\obj\Debug\netcoreapp1.1\TriangleService.AssemblyInfo.cs
+C:\projects\Triangle\TriangleService\obj\Debug\netcoreapp1.1\TriangleService.dll
+C:\projects\Triangle\TriangleService\obj\Debug\netcoreapp1.1\TriangleService.pdb

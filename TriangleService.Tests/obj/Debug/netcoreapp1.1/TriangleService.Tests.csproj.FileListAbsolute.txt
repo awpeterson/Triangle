@@ -1,0 +1,13 @@
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.Tests.deps.json
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.Tests.runtimeconfig.json
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.Tests.runtimeconfig.dev.json
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.Tests.dll
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.Tests.pdb
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.dll
+C:\projects\Triangle\TriangleService.Tests\bin\Debug\netcoreapp1.1\TriangleService.pdb
+C:\projects\Triangle\TriangleService.Tests\obj\Debug\netcoreapp1.1\TriangleService.Tests.AssemblyInfo.cs
+C:\projects\Triangle\TriangleService.Tests\obj\Debug\netcoreapp1.1\TriangleService.Tests.dll
+C:\projects\Triangle\TriangleService.Tests\obj\Debug\netcoreapp1.1\TriangleService.Tests.pdb
