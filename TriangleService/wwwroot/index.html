@@ -1,0 +1,52 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <span>Enter 3 comma separated segment lengths: </span><br/>
+        <input type="text" id="txtSegments" placeholder="eg. 3.0,4.0,5.0" />
+        <input type="button" id="cmdSubmit" value="Submit"></input>
+        <div id="result" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#cmdSubmit").click(function(e){
+                    var segments = $('#txtSegments').val().split(',');
+                    var data = {'Segment1':segments[0],'Segment2':segments[1],'Segment3':segments[2]};
+                    var url = "/api/triangle";
+                    $.ajax({
+                        type: "POST",
+                        url: url,
+                        contentType: "application/json; charset=utf-8",  
+                        dataType: "json",  
+                        data: JSON.stringify(data), // serializes the form's elements.
+                        success: function(data)
+                        {
+                            var text = "";
+                            switch(data){
+                                case 1:
+                                    text = "an equilateral";
+                                    break;
+                                case 2:
+                                    text = "an isosceles";
+                                    break;
+                                case 3:
+                                    text = "a scalene";
+                                    break;
+                                case 4:
+                                    text = "not a";
+                                    break;
+                            }
+                            $("#result").html("Your triangle is " + text + " triangle!");
+                        },
+                        failure: function (data) {  
+                            alert(data.responseText);  
+                        },
+                        error: function (data) {  
+                            alert(data.responseText);  
+                        }
+                    });  
+                });
+            })
+        </script>
+    </body>
+</html>
