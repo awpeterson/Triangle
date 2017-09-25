@@ -1,11 +1,36 @@
 <html>
     <head>
+        <style>
+            body{
+                background-color: #ddd;
+                padding: 10px;
+            }
+            body, input
+            {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 10pt;
+            }
+            .container{
+                margin: auto;
+                width: 500px;
+                background-color: #fff;
+                border: 1px solid #000;
+                padding: 5px;
+            }
+            .container div{
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
-        <span>Enter 3 comma separated segment lengths: </span><br/>
-        <input type="text" id="txtSegments" placeholder="eg. 3.0,4.0,5.0" />
-        <input type="button" id="cmdSubmit" value="Submit"></input>
-        <div id="result" />
+        <div class="container">
+            <div>Enter 3 comma separated segment lengths: </div>
+            <div>
+                <input type="text" id="txtSegments" placeholder="eg. 3.0,4.0,5.0" />
+                <input type="button" id="cmdSubmit" value="Submit"></input>
+            </div>
+            <div id="result" />
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
