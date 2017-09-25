@@ -1,6 +1,7 @@
 using System;
 using Xunit;
 using TriangleService.Models;
+using TriangleService.Controllers;
 
 namespace TriangleService.Tests
 {
@@ -33,6 +34,13 @@ namespace TriangleService.Tests
             Triangle t = new Triangle() {Segment1= 11, Segment2 = 4, Segment3 = 6};
             Assert.True(t.Type == TriangleTypes.NOT_A_TRIANGLE);
             Assert.False(t.Type == TriangleTypes.EQUILATERAL || t.Type == TriangleTypes.ISOSCELES || t.Type == TriangleTypes.SCALENE);
+        }
+
+        [Fact]
+        public void TestController(){
+            TriangleController c = new TriangleController();
+            int rv = c.Post(new Triangle(){Segment1 = 4, Segment2 = 4, Segment3 = 4});
+            Assert.True(rv == (int) TriangleTypes.EQUILATERAL);
         }
     }
 }
